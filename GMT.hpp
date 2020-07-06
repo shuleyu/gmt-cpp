@@ -15,6 +15,7 @@
 
 extern "C" {
 
+// This GMT.hpp is based on version 5.4.5
 #include "/usr/local/Cellar/gmt@5/5.4.5_4/include/gmt/gmt.h"
 }
 

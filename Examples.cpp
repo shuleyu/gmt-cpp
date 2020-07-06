@@ -9,16 +9,17 @@
 #include<Lon2180.hpp>
 #include<ShellExec.hpp>
 
+
 using namespace std;
 
 int main(){
 
     bool PlotGrid = false;
 
-    string outfile="GMT.ps";
-    size_t NRow=4,NCol=3;
-    size_t row,col;
-    double Len=5,SpaceRatio=0.1,XSIZE=(NCol+2*SpaceRatio)*Len,YSIZE=(NRow+SpaceRatio)*Len+1,xp,yp;
+    string outfile = "GMT.ps";
+    size_t NRow = 4, NCol = 3;
+    size_t row, col;
+    double Len = 5, SpaceRatio = 0.1, XSIZE = (NCol + 2 * SpaceRatio) * Len, YSIZE = (NRow + SpaceRatio) * Len + 1, xp, yp;
 
     // config, define media ("gmt set PS_MEDIA 8.5ix8.5i").
     GMT::set("PS_MEDIA "+to_string(XSIZE)+"ix"+to_string(YSIZE)+"i");

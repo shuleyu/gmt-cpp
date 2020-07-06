@@ -7,6 +7,7 @@
 
 #include<CreateGrid.hpp>
 
+
 /*******************************************************************
  * This C++ template returns a globe grid using the input parameters
  *

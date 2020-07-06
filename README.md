@@ -1,14 +1,12 @@
-# gmt-cpp
-c++ gmt plotting simple wrapper (see https://github.com/shuleyu/CPP-Library/blob/master/GMT.hpp)
+c++ gmt simple wrapper (see https://github.com/shuleyu/CPP-Library/blob/master/GMT.hpp)
 
-Example programs see https://github.com/shuleyu/CPP-Library/blob/master/Examples/GMT.cpp
-
-The files above will be updated in the future. The example in this repository (CMT.cpp) will not be updated.
-
-Usage:
-
-$ c++ GMT.cpp -lgmt # -I${PathToGMTIncludeFiles} -L${PathToGMTLibFiles} # if GMT is not installed in the default directory.
-
-$ ./a.out ; gs GMT.ps # or ps2pdf GMT.ps GMT.pdf
+# Compile and run
+```
+$ git clone https://github.com/shuleyu/gmt-cpp.git
+$ cd gmt-cpp
+# $ vim GMT.hpp Makefile # need to edit Makefile and GMT.hpp: change GMT library and header location.
+$ make 
+$ ./Examples.out
+```
 
 ![alt text](https://github.com/shuleyu/gmt-cpp/blob/master/Examples.png)

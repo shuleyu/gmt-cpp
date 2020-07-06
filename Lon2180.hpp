@@ -19,11 +19,11 @@
 
 inline double Lon2180(const double &lon){
 
-    double ans=lon;
-    if (ans>=0) ans-=360*((int)(ans/360));
-    else ans+=360*(1+(int)(-ans/360));
+    double ans = lon;
+    if (ans >= 0) ans -= 360 * ((int)(ans / 360));
+    else ans += 360 * (1 + (int)(-ans / 360));
 
-    if (ans>180) ans-=360;
+    if (ans > 180) ans -= 360;
     return ans;
 }
 

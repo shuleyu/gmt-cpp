@@ -6,6 +6,7 @@
 #include<memory>
 #include<vector>
 
+
 /*************************************************
  * This C++ template returns the stdout from the
  * execution of given shell command.
