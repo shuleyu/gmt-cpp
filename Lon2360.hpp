@@ -1,6 +1,7 @@
 #ifndef ASU_LON2360
 #define ASU_LON2360
 
+
 /***********************************************************
  * This C++ template convert input longitude (in deg) to
  * [0,360] deg.
